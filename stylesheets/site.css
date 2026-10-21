@@ -1,0 +1,13 @@
+h1{
+    color: rgb(51, 94, 172);
+}
+h2{
+    color: crimson;
+    text-decoration: underline;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'franklin gothic medium', 'arial narrow', arial, sans-serif;
+}
+p{
+    font-family: 'courier new', courier, monospace;
+}
