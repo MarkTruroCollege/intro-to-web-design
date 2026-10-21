@@ -7,65 +7,84 @@
 </head>
 <body>
     
-    <a href="index.html">Home</a>
-    <a href="about_us.html">About Us</a>
-    <a href="contact_us.html">Contact Us</a>
+    <header>
 
-    <h1>Contact Us</h1>
-    <hr />
+        <div id="banner">
+            <p>Notification</p>
+        </div>
 
-    <h2>Contact Information</h2>
-    <table>
-        <tr>
-            <th>Location</th>
-            <th>Opening Hours</th>
-            <th>Email Address</th>
-            <th>Phone Number</th>
-        </tr>
-        <tr>
-            <td>Mandeville</td>
-            <td>9:00 AM - 5:00 PM</td>
-            <td>info@company.com</td>
-            <td>(123)456-7890</td>
-        </tr>
-        <tr>
-            <td>Kingston</td>
-            <td>9:00 AM - 5:00 PM</td>
-            <td>info@company.com</td>
-            <td>(123)345-6789</td>
-        </tr>
-        <tr>
-            <td>Montego Bay</td>
-            <td>9:00 AM - 5:00 PM</td>
-            <td>info@company.com</td>
-            <td>(123)234-5678</td>
-        </tr>
-    </table>    
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about_us.html">About Us</a>
+            <a href="contact_us.html">Contact Us</a>
+        </nav>
 
-    <!-- Not connected to any backend -->
-    <h2>Contact Form</h2>
-    <form action="confirmation.html" method="post">
+    </header>
 
-        <label for="fullname">Name: *</label><br />
-        <input type="text" id="fullname" name="fullname" required />
-        <br />
-        <br />
-        <label for="email">Email: *</label><br />
-        <input type="email" id="email" name="email" required />
-        <br />
-        <br />
-        <label for="employed">Are you employed?</label><br />
-        <input type="radio" id="employed" value="Y" name="employed" /> Yes
-        <input type="radio" id="employed" value="N" name="employed" /> No
-        <br />
-        <br />
-        <label for="message">Message: *</label><br />
-        <textarea cols="50" rows="10" maxlength="150" id="message" name="message" required></textarea>
-        <br />
-        <br />
-        <input type="submit" value="Submit" />
+    <main>
 
-    </form>
+        <h1>Contact Us</h1>
+        <hr />
+
+        <article>
+            <h2>Contact Information</h2>
+            <table>
+                <tr>
+                    <th>Location</th>
+                    <th>Opening Hours</th>
+                    <th>Email Address</th>
+                    <th>Phone Number</th>
+                </tr>
+                <tr>
+                    <td>Mandeville</td>
+                    <td>9:00 AM - 5:00 PM</td>
+                    <td>info@company.com</td>
+                    <td>(123)456-7890</td>
+                </tr>
+                <tr>
+                    <td>Kingston</td>
+                    <td>9:00 AM - 5:00 PM</td>
+                    <td>info@company.com</td>
+                    <td>(123)345-6789</td>
+                </tr>
+                <tr>
+                    <td>Montego Bay</td>
+                    <td>9:00 AM - 5:00 PM</td>
+                    <td>info@company.com</td>
+                    <td>(123)234-5678</td>
+                </tr>
+            </table>   
+        </article> 
+
+        <article>
+            <!-- Not connected to any backend -->
+            <h2>Contact Form</h2>
+            <form action="confirmation.html" method="post">
+
+                <label for="fullname">Name: *</label><br />
+                <input type="text" id="fullname" name="fullname" required />
+                <br />
+                <br />
+                <label for="email">Email: *</label><br />
+                <input type="email" id="email" name="email" required />
+                <br />
+                <br />
+                <label for="employed">Are you employed?</label><br />
+                <input type="radio" id="employed" value="Y" name="employed" /> Yes
+                <input type="radio" id="employed" value="N" name="employed" /> No
+                <br />
+                <br />
+                <label for="message">Message: *</label><br />
+                <textarea cols="50" rows="10" maxlength="150" id="message" name="message" required></textarea>
+                <br />
+                <br />
+                <input type="submit" value="Submit" />
+
+            </form>
+        </article>
+
+    </main>
+    
 
 </body>
 </html>
